@@ -15,7 +15,7 @@ http
                 }
             });
         } else if (req.url === "/greenwich") {
-            fs.readFile("/greenwich.html", (err, data) => {
+            fs.readFile("./greenwich.html", (err, data) => {
                 if (err) {
                     consosle.log(err);
                 } else {
